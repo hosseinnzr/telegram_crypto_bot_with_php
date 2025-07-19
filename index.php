@@ -159,7 +159,7 @@ function sendTelegramMessage($message) {
 
 $data = false;
 while(!$data) {
-    $data = fetchData("https://api.bitpin.ir/v1/mkt/markets/");
+    $data = fetchData("https://api.example.com/"); // Exchange API
 }
 
 $gregorianDate = date('Y-m-d');
